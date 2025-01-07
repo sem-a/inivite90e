@@ -260,3 +260,53 @@ button.btn {
 .form-img img {
   filter: blur(1px);
 }
+
+@media screen and (min-width: 500px) {
+  .computer {
+    width: 400px;
+    margin: 0 auto;
+    border: 5px double black;
+  }
+  .oblozhka {
+    width: 390px;
+  }
+  .page-two {
+    width: 390px;
+  }
+  .page-three {
+    width: 390px;
+  }
+  .page-four {
+    width: 390px;
+  }
+}
+
+@media screen and (max-height: 680px) {
+  .oblozhka {
+    height: 844px;
+  }
+  .page-two {
+    height: 844px;
+  }
+  .page-three {
+    height: 844px;
+  }
+  .page-four {
+    height: 844px;
+  }
+}
+
+@media screen and (min-height: 900px) {
+  .oblozhka {
+    height: 844px;
+  }
+  .page-two {
+    height: 844px;
+  }
+  .page-three {
+    height: 844px;
+  }
+  .page-four {
+    height: 844px;
+  }
+}
